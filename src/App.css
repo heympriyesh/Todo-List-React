@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.nav-todo{
+  position: absolute;
+    top: 0;
+    width: 100vw;
+    color: #fff;
+    background-color:#264653;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: none!important;
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+.nav-todo:hover{
+  text-decoration: none!important;
+}
+.container1{
+  background: linear-gradient(to right bottom, #e1b382, #c80966);
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.front-container img{
+  max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
+.front-container h1{
+  font-size: 3.5rem;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+    position: absolute;
+    top: 14%;
+    left: 32%;
+}
+.button-link{
+  border-color: #e44232;
+    background-color: #e44232;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    border-radius: 8px;
+    width: 100px;
+    /* height: 44px; */
+    line-height: 2;
+    padding: 7px;
+    text-align: center;
+}
+.color{
+  color: #fff;
+  text-decoration: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+}
+.grid-container h2{
+  color: white;
+}
+.app-wrapper{
+  background-color: #12343b;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}
+
+.header h1{
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+.task-input{
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #c80966;
+  border-radius: 10px;
+}
+.button-add{
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border:0;
+  background-color: #f1af71;
+  cursor: pointer;
+}
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 30px;
+
+}
+.button-complete,
+.button-delete,
+.button-edit{
+  border:none;
+  outline:none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+.button-complete{
+  color: #ff6c6c;
+  margin-right: 10px;
+}
+.button-edit{
+  color: #e2d029;
+  margin-right: 10px;
+}
+.button-delete{
+  color: lightseagreen;
+}
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+.list{
+  width: 220px;
+  background-color: #12343b;
+  border:none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+input:focus,
+button:focus{
+  outline: none;
+}
+/* Priyesh Pandey css */
